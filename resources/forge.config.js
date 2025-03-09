@@ -34,8 +34,8 @@ module.exports = {
         'name': 'Logseq',
         'setupIcon': './icons/logseq.ico',
         'loadingGif': './icons/installing.gif',
-        'certificateFile': process.env.CODE_SIGN_CERTIFICATE_FILE,
-        'certificatePassword': process.env.CODE_SIGN_CERTIFICATE_PASSWORD,
+        // 'certificateFile': process.env.CODE_SIGN_CERTIFICATE_FILE,
+        // 'certificatePassword': process.env.CODE_SIGN_CERTIFICATE_PASSWORD,
         "rfc3161TimeStampServer": "http://timestamp.digicert.com"
       }
     },
